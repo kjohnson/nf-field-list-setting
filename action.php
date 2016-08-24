@@ -41,7 +41,7 @@ final class NF_FieldListSetting_Action extends NF_Abstracts_Action
                 'label' => __( 'Field List', 'ninja-forms' ),
                 'width' => 'full',
                 'group' => 'primary',
-                'field_types' => array( 'textbox' ),
+                'field_types' => array( 'textbox', 'textarea' ),
                 'settings' => array(
                     array(
                         'name' => 'toggle',
@@ -50,11 +50,6 @@ final class NF_FieldListSetting_Action extends NF_Abstracts_Action
                         'width' => 'full',
                     ),
                 )
-//                'field_filter' => array(
-//                    'terms' => array(
-//                        'taxonomy' => $this->taxonomy_name
-//                    ),
-//                ),
             ),
         );
 
