@@ -16,7 +16,7 @@ final class NF_FieldListSetting
     public function register_actions( $actions )
     {
         require_once 'action.php';
-        $actions[ 'field-list-action' ] = new NF_FieldListSetting_Action();
+        $actions[ 'fieldlistexample' ] = new NF_FieldListSetting_Action();
 
         return $actions;
     }
